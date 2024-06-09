@@ -39,6 +39,14 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         >
           Thank you for your purchase!
         </Typography>
+        <Typography
+          variant="body2"
+          align="center"
+          color="textSecondary"
+          component="p"
+        >
+          minor changes to check CloudFront distribution invalidation
+        </Typography>
         <Copyright />
       </Box>
     </>
