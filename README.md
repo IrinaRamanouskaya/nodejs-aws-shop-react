@@ -36,3 +36,7 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+### Links to the deployed application
+- [S3 (Access Denied error - as expected)](https://rsschool-aws-shop.s3.eu-central-1.amazonaws.com/index.html)
+- [CloudFront website (works)](https://d150yzp40z470f.cloudfront.net/)
