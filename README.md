@@ -40,3 +40,10 @@ Runs linting and formatting for all files in `src` folder.
 ### Links to the deployed application
 - [S3 (Access Denied error - as expected)](https://rsschool-aws-shop.s3.eu-central-1.amazonaws.com/index.html)
 - [CloudFront website (works)](https://d150yzp40z470f.cloudfront.net/)
+
+### Commands to deploy application via cdk
+
+- `cdk:deploy` - to deploy an application
+- `cdk:synth` - to synthesize an application
+- `cdk:diff` - show diff
+- `cdk:destroy` - to see infrastructure changes between AWS CDK stacks

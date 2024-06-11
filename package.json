@@ -14,8 +14,7 @@
     "cdk:deploy": "npm run build && cd deployment-cdk && cdk deploy",
     "cdk:synth": "npm run build && cd deployment-cdk && cdk synth",
     "cdk:diff": "npm run build && cd deployment-cdk && cdk diff",
-    "cdk:destroy": "cd deployment-cdk && cdk destroy",
-    "invalidate:cloudfront": "aws cloudfront create-invalidation --distribution-id YOUR_DISTRIBUTION_ID --paths '/*'"
+    "cdk:destroy": "cd deployment-cdk && cdk destroy"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
