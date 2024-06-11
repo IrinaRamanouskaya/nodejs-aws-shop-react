@@ -14,6 +14,8 @@ export class DeploymentCdkStack extends cdk.Stack {
       websiteIndexDocument: 'index.html',
       publicReadAccess: false,
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
+      autoDeleteObjects: true,
     });
 
     bucket.addToResourcePolicy(new iam.PolicyStatement({
