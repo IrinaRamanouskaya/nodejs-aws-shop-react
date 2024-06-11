@@ -45,7 +45,7 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           color="textSecondary"
           component="p"
         >
-          minor changes to check CloudFront distribution invalidation
+          minor changes to check cdk deployment works
         </Typography>
         <Copyright />
       </Box>
