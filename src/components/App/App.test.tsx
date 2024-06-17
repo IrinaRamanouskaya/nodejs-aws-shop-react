@@ -13,17 +13,27 @@ import { formatAsPrice } from "~/utils/utils";
 test("Renders products list", async () => {
   const products: AvailableProduct[] = [
     {
-      id: "1",
-      title: "Product 1",
-      description: "Product 1 description",
-      price: 1,
+      id: "7567ec4b-b10c-48c5-9345-fc73c48a80aa",
+      title: "Roadster 3000",
+      brand: "Speedster",
+      type: "Road Bike",
+      price: 1200.0,
+      color: "Red",
+      isAvailable: true,
+      description:
+        "A high-performance road bike designed for speed and agility. Perfect for competitive racing and long-distance rides.",
       count: 1,
     },
     {
-      id: "2",
-      title: "Product 2",
-      description: "Product 2 description",
-      price: 2,
+      id: "81c5a9d7-2e2e-4f75-ae32-c9d8b1a6e4d5",
+      title: "Mountain King",
+      brand: "Trail Blazer",
+      type: "Mountain Bike",
+      price: 1500.0,
+      color: "Blue",
+      isAvailable: true,
+      description:
+        "Conquer the toughest trails with the Mountain King. Built for durability and performance on rugged terrains.",
       count: 2,
     },
   ];
